@@ -1,0 +1,10 @@
+{
+  "modules": true,
+  "plugins": {
+    "postcss-fail-on-warn": true,
+    "postcss-preset-env": {
+      "importFrom": ["node_modules/@virtusize/design-system/dist/lib/theme.css"],
+      "stage": 0
+    },
+  }
+}
