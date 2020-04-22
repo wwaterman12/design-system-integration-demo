@@ -6,16 +6,23 @@
     <Button inverse>
       Test 123
     </Button>
+    <Avatar borderStyle="dashed" borderWidth="thick" size="large">
+      <img
+          style="width:100%;height:100%;borderRadius:50%;"
+          src="https://res.cloudinary.com/demo/w_150,h_150,c_thumb,g_face/woman.jpg"
+        />
+    </Avatar>
   </div>
 </template>
 
 <script>
-import { Button } from "@virtusize/design-system";
+import { Button, Avatar } from "@virtusize/design-system";
 
 export default {
   name: 'App',
   components: {
     Button,
+    Avatar,
   },
   data() {
     return {
